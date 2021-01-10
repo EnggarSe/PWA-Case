@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+
+
+.Navigation-Bar{
+   font-family: 'Neuton', serif;
+   .ant-layout-header{
+      display: flex;
+      justify-content: space-between;
+      background-color: #1A2579;
+   }
+   .ant-menu{
+      background-color: #1A2579 !important;
+      color : black !important;
+      line-height: 300% !important;
+      margin-top: 12px !important;
+   }
+   .ant-menu > li {
+      color: #F4D35E;
+      margin-left: 6px;
+      font-size: 22px;
+      font-weight: 600;
+   }
+   .logo {
+      width: 57px;
+      height: 78px;
+      .Logo{
+         width: 100%;
+      }
+   }
+   .ant-menu-item-selected{
+      border-radius: 14px;
+      background-color: red($color: #000000);
+   }
+   .ant-menu-item-active{
+      border-radius: 14px;
+      color: #F4D35E;
+      background-color: #2562D8;
+   }
+   .title-header{
+      color: #F4D35E;
+      font-size: 22px;
+    
+   }
+   .Center-Menu{
+      font-weight: 600;
+      margin-right: 860px;
+      margin-top: 2px;
+   }
+}
+
+.Body-Dashboard{
+   font-family: 'Neuton', serif;
+   background-color: #F4D35E;
+   .site-layout-background{
+      display: flex;
+      justify-content: center;
+   }
+   .ant-card{
+      margin : 10px;
+   }
+   .ant-card-body{
+      padding: 0px 20px 20px 20px;
+   }
+   .ant-card-meta-title{
+      font-size: xx-large;
+      display: flex;
+      justify-content: center;
+   }
+   .tag-jumlah{
+      height: 28px;
+      width: 28px;
+      font-size: medium;
+      text-align: center;
+      color: #dddddd;
+      border-color: #1A2579;
+      background-color: #295939;
+      margin-left: -25px;
+   }
+   .tag-harga{
+      height: 30px;
+      width: 100px;
+      font-size: large;
+      text-align: center;
+      margin-left: 17%;
+      margin-top: 20px;
+      border-radius: 10px;
+   }
+   .button-card{
+      display: flex;
+      margin-top: 15px;
+      justify-content: space-around;
+   }
+   .delete-button{
+      border-radius: 7px;
+      font-family: 'Neuton', serif;
+      background-color: orangered;
+      border-color: white;
+   }
+   .delete-button:hover{
+      background-color: orangered;
+   }
+   .delete-button:focus{
+      background-color: orangered;
+   }
+}
+
+.ant-modal-footer{
+   display: none;
+}
+
+.add-icon{
+   margin-right: 3px !important;
+}
+
+.footer-modal{
+   display: flex;
+   margin : 8px;
+   justify-content: space-around;
+   .delete-button{
+      border-radius: 7px;
+      font-family: 'Neuton', serif;
+      background-color: orangered;
+      border-color: white;
+   }
+   .delete-button:hover{
+      background-color: orangered;
+   }
+   .delete-button:focus{
+      background-color: orangered;
+   }
+}
+.modal-delete{
+   width : 300px !important;
+}

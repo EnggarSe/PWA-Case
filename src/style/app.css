@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap");
+.Navigation-Bar {
+  font-family: 'Neuton', serif;
+}
+
+.Navigation-Bar .ant-layout-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1A2579;
+}
+
+.Navigation-Bar .ant-menu {
+  background-color: #1A2579 !important;
+  color: black !important;
+  line-height: 300% !important;
+  margin-top: 12px !important;
+}
+
+.Navigation-Bar .ant-menu > li {
+  color: #F4D35E;
+  margin-left: 6px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Navigation-Bar .logo {
+  width: 57px;
+  height: 78px;
+}
+
+.Navigation-Bar .logo .Logo {
+  width: 100%;
+}
+
+.Navigation-Bar .ant-menu-item-selected {
+  border-radius: 14px;
+  background-color: 0;
+}
+
+.Navigation-Bar .ant-menu-item-active {
+  border-radius: 14px;
+  color: #F4D35E;
+  background-color: #2562D8;
+}
+
+.Navigation-Bar .title-header {
+  color: #F4D35E;
+  font-size: 22px;
+}
+
+.Navigation-Bar .Center-Menu {
+  font-weight: 600;
+  margin-right: 860px;
+  margin-top: 2px;
+}
+
+.Body-Dashboard {
+  font-family: 'Neuton', serif;
+  background-color: #F4D35E;
+}
+
+.Body-Dashboard .site-layout-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Body-Dashboard .ant-card {
+  margin: 10px;
+}
+
+.Body-Dashboard .ant-card-body {
+  padding: 0px 20px 20px 20px;
+}
+
+.Body-Dashboard .ant-card-meta-title {
+  font-size: xx-large;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Body-Dashboard .tag-jumlah {
+  height: 28px;
+  width: 28px;
+  font-size: medium;
+  text-align: center;
+  color: #dddddd;
+  border-color: #1A2579;
+  background-color: #295939;
+  margin-left: -25px;
+}
+
+.Body-Dashboard .tag-harga {
+  height: 30px;
+  width: 100px;
+  font-size: large;
+  text-align: center;
+  margin-left: 17%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.Body-Dashboard .button-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Body-Dashboard .delete-button {
+  border-radius: 7px;
+  font-family: 'Neuton', serif;
+  background-color: orangered;
+  border-color: white;
+}
+
+.Body-Dashboard .delete-button:hover {
+  background-color: orangered;
+}
+
+.Body-Dashboard .delete-button:focus {
+  background-color: orangered;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.add-icon {
+  margin-right: 3px !important;
+}
+
+.footer-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-modal .delete-button {
+  border-radius: 7px;
+  font-family: 'Neuton', serif;
+  background-color: orangered;
+  border-color: white;
+}
+
+.footer-modal .delete-button:hover {
+  background-color: orangered;
+}
+
+.footer-modal .delete-button:focus {
+  background-color: orangered;
+}
+
+.modal-delete {
+  width: 300px !important;
+}
+/*# sourceMappingURL=app.css.map */
