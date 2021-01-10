@@ -203,6 +203,7 @@ class Dashboard extends Component{
                message: 'Selamat Datang '+username,
              });
             setTimeout(() => window.location.reload(), 1000)
+            break;
         } else if (count == userList.length){
             notification['error']({
                message: 'Username atau password tidak terdaftar',
