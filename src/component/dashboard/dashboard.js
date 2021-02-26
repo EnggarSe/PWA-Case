@@ -12,6 +12,7 @@ const { Header, Content, Footer } = Layout;
 
 let check = localStorage.getItem('isLogin');
 let Name = '';
+let nameList = []
 
 class Dashboard extends Component{
    constructor (props) {
@@ -56,8 +57,8 @@ class Dashboard extends Component{
             loader : loader,
             editItemLoader : editItemLoader,
             editItemMessage : editItemMessage
-            
         }
+
        } return null
      }
 
@@ -298,9 +299,10 @@ class Dashboard extends Component{
          </div>
          <div className = "Body-Dashboard">
          <Spin spinning = {loader}>
+          
             <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
             <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>
-               
+               <div  className= "body-content">
                {itemList!== "" && itemList.map((list, index) =>  {
                   return(
                      <Card
@@ -324,6 +326,8 @@ class Dashboard extends Component{
                      </Card>
                   )
                })}
+               </div>
+              
              
               
              
@@ -332,7 +336,7 @@ class Dashboard extends Component{
             </Spin>    
          </div>
          <div className = "Footer-Dashboar">
-            <Footer style={{ textAlign: 'center' }}>TestCase KlikDokter - Enggar Septrinas</Footer>   
+            <Footer style={{ textAlign: 'center' }}>TestCase ICUBE - Enggar Septrinas</Footer>   
          </div>
 
 
